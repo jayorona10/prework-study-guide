@@ -1,0 +1,51 @@
+.App {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 20px;
+  color: #333;
+}
+
+h1 {
+  color: darkgoldenrod;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+
+  justify-content: center;
+}
+
+li {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px;
+  width: 360px;
+  background-color: salmon;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+li:hover {
+  background-color: sandybrown;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.StudySuggestion {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+}
+
+.StudySuggestion h2 {
+  color: palevioletred;
+}
+
+.StudySuggestion p {
+  font-size: 1.2em;
+  color: darkmagenta;
+}
